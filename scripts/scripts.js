@@ -1,7 +1,3 @@
-document.getElementById(
-    "currentdate"
-).textContent = new Date().toLocaleDateString('en-US');
+let date1 = document.querySelector("#currentdate");
 
-document.getElementById(
-    "currenttime"
-).textContent = new Date('GMT-06:00').toLocaleTimeString('en-US');
+date1.textContent = new Date().toLocaleDateString("en-US");

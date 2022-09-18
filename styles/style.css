@@ -1,2 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 
+#content {
+    max-width: 1600px;
+    margin: 0;
+    background-color: #778076;
+    min-height: 100vh;
+    position: center;
+    color: #c1c1c1
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #443412;
+    font-family: "Baloo Bhaijaan", Calibri;
+    text-align: center;
+}
+
+.profile {
+    max-width: 100px;
+    grid-column: 2/3;
+}
+
+.name {
+    column-span: 3/5;
+}
