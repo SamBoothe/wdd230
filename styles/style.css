@@ -17,11 +17,21 @@ header {
     text-align: center;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Baloo Bhaijaan", Calibri;
+    text-align: center;
+}
+
 .profile {
     max-width: 100px;
+}
+
+#profile_picture {
     grid-column: 2/3;
 }
 
 .name {
-    column-span: 3/5;
+    grid-column: 3/5;
 }
