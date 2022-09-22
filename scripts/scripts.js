@@ -1,3 +1,13 @@
-let date1 = document.querySelector("#currentdate");
+let year = document.querySelector("#year");
 
-date1.textContent = new Date().toLocaleDateString("en-US");
+year.textContent = new Date().getFullYear();
+
+let date = document.querySelector("#currentdate");
+
+date.textContent = new Date();
+
+let currentDate = new Date();
+let time = currentDate.getHours()
+document.querySelector("#currenttime");
+
+time.textContent = new Date().toLocaleTimeString();
