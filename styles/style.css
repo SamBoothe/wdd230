@@ -43,6 +43,8 @@ footer {
 
 footer ul {
     color: #c1c1c1;
+    margin: 2px;
+    font-size: 12px;
 }
 
 .profile {
