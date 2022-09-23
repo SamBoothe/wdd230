@@ -1,2 +1,10 @@
-@media (min-width 32.5em)
-    
+@media (min-width: 32.5em){
+    main h1 {
+        color: #365e2df8;
+    }
+
+    #content{
+        font-size: 24px;
+    }
+}
+

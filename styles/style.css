@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 
 #content {
-    max-width: 100em;
+    max-width: 100%;
     margin: 0;
-    
-    min-height: 100vh;
     position: center;
-    color: #c1c1c1
+    color: #c1c1c1;
+    background-color: #443412;
+}
+
+ul {
+    color: black;
+    font-weight: bold;
 }
 
 header, main, footer {
@@ -26,18 +30,28 @@ main {
 
 footer {
     grid-template-columns: 1fr;
+    }
+
+footer ul {
+    color: #c1c1c1;
 }
 
 .profile {
-    max-width: 100px;
+    max-width: 7em;
+    margin-top: 5px;
 }
 
 #profile_picture {
     grid-column: 1/2;
-    padding-left: 80%;
+    padding-left: 20em;
+    padding-right: auto;
+    margin-right: 5px;
 }
 
 .name {
     grid-column: 2/3;
-    padding-right: 80%;
+    padding-right: 20em;
+    padding-left: auto;
+    margin-left: 5px;
 }
+
