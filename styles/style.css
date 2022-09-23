@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 
 #content {
-    max-width: 1600px;
+    max-width: 100em;
     margin: 0;
-    background-color: #778076;
+    
     min-height: 100vh;
     position: center;
     color: #c1c1c1
 }
 
-header {
+header, main, footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #443412;
@@ -18,10 +18,14 @@ header {
 }
 
 main {
-    display: grid;
+    background-color: #778076;
     grid-template-columns: 1fr;
-    font-family: "Baloo Bhaijaan", Calibri;
-    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+footer {
+    grid-template-columns: 1fr;
 }
 
 .profile {
